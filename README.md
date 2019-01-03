@@ -36,7 +36,7 @@ iOS 开发中，MVC（Model View Controller）是构建iOS App的标准模式，
 
 ![](pg2.png)
 #### mvc中的view，添加特定的UI交合逻辑，变成自定义view，再添加数据的填充逻辑就变成了presenter
-###思路：
+### 思路：
 
 - Controller其实将view和viewController传递给了P层, 这样P层其实就拥有了控制器的权利, 完全可以行使控制器的职责.
 - Controller又持有Presenter, 那么它只需要调用P层暴露出的接口, 就完全可以完成整个业务逻辑和页面展示
